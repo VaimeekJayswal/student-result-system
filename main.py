@@ -37,7 +37,7 @@ def add_student():
     roll = input("Roll No: ").strip()
     name = input("Name: ").strip()
 
-    # Basic validation
+    
     if not roll or not name:
         print("Roll and name cannot be empty.\n")
         return
